@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display";
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+header {
+    text-align: center;
+    padding: 3rem;
+}
+
+.top-section {
+    background-image: url(/images/image-hero-left.png), url(/images/image-hero-right.png);
+    background-position: left -2% top, right -2% top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 35vh;
+}
+
+.mid-section, .footer-information {
+    margin-inline: auto;
+    max-width: 80rem;
+    width: 90%;
+}
+
+.mid-section, .last-section-container {
+    margin-top: 7rem;
+    min-height: 35vh;
+}
+
+
+.last-section-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10rem;
+    background: url(/images/image-footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.Numbering, .Numbering2 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.Numbering2 {
+    position: absolute;
+    left:50%;
+    top:-10%;
+    transform: translate(-50%, -50%);
+}
+
+.line {
+    width: 0.0625rem;
+    opacity: 0.25;
+    height: 5.25rem;
+    background-color: #87879D;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    aspect-ratio: 1;
+    border-radius: 1.8125rem;
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    background: #FAFAFA;
+}
+
+.circle h4 {
+    color: #87879D;
+    font-weight: 900;
+    line-height: 1.625rem;
+    font-size: 1rem;
+}
+
+
+.img-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+    margin-top: 4.5rem;
+}
+
+
+.img-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.description {
+    margin-top: 2.80rem;
+    text-align: center;
+}
+
+.description h3 {
+    color: #4D96A9;
+    font-weight: 900;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    line-height: 1.625rem;
+}
+
+.description h2 {
+    margin-top: 1rem;
+    font-weight: 900;
+    color: #28283D;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+}
+
+.description p {
+    margin-top: 2rem;
+    color: #87879D;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+}
+
+.main-content h1 {
+    color: #28283D;
+    font-weight: 900;
+    line-height: 4rem;
+    font-size: 4rem;
+}
+
+.main-content p {
+    color: #87879D;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    width: 45ch;
+    margin-top: 2.13rem;
+}
+
+.buttons {
+    padding-top: 2rem;    
+}
+
+.buttons button {
+    color: #FFF;
+    font-family: "Red Hat Display";
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.625rem;
+    border-radius: 1.8125rem;
+    border: none;
+}
+
+.downloadbtn {
+    margin-right: 1rem;
+    padding-block: 1rem;
+    padding-inline: 2.5rem;
+    max-width: 12.0625rem;
+    background: #4D96A9;
+}
+
+.downloadbtn span {
+    color: #8FE3F9;
+}
+
+.downloadbtn:hover {
+    cursor: pointer;
+    background: #71C0D4;
+    transition: all 1s;
+}
+
+.infobtn {
+    padding-block: 1rem;
+    padding-inline: 1.81rem;
+    max-width: 8.6875rem;
+    background: #855FB1;
+}
+
+.infobtn:hover {
+    cursor: pointer;
+    background: #B18BDD;
+    transition: all 1s;
+}
+
+
+.footer-information {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-information h3 {
+    color: #FAFAFA;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+}
+
+.footer-information p {
+    width: 30ch;
+    color: #FAFAFA;
+    line-height: 1.625rem;
+}
+
+.footer-information button {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.625rem;
+    border: none;
+    width: 12.0625rem;
+    height: 3.625rem;
+    border-radius: 1.8125rem;
+    background: #855FB1;
+}
+
+.footer-information button:hover {
+    cursor: pointer;
+    background: #B18BDD;
+    transition: all 2s;
+}
+
+.vsp {
+    color: #D9B8FF;
+}
